@@ -140,6 +140,10 @@ body {
 }
 
 /* Countdown */
+.new-timer {
+  width: 50vw;
+  margin: 0 auto;
+}
 .timer-section {
   background-color: #2EAABB;
 }

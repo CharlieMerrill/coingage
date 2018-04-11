@@ -84,3 +84,5 @@ var x = setInterval(function() {
   document.getElementById("seconds").innerHTML = seconds + "<br>Seconds";
 
 }, 1000);
+
+$(".example").TimeCircles();
