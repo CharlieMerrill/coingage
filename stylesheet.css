@@ -1,5 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
 }
 
 .flex-center {
@@ -140,10 +141,29 @@ body {
 }
 
 /* Countdown */
-.new-timer {
-  width: 50vw;
-  margin: 0 auto;
+.timer-box {
+  text-align: center;
+  position: relative;
+  bottom: 90px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
+
+.timer-background {
+  width: 100%;
+  height: 100px;
+  background-color: #36aaba;
+  position: absolute;
+  z-index: 1;
+}
+
+.timer-box p {
+  position: absolute;
+  z-index: 2;
+  right: 48%;
+}
+
 .timer-section {
   background-color: #2EAABB;
 }
@@ -165,6 +185,11 @@ body {
   text-align: center;
 }
 
+.launch h3 {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
 /* About Section */
 .about {
   padding: 20px;
@@ -174,11 +199,40 @@ body {
   width: 100%;
 }
 
+.about-text {
+  margin-top: 40px;
+}
+
+.about p {
+  text-align: right;
+  border-right: 3px solid #CCCCCC;
+  padding-right: 5px;
+}
+
+.about-border {
+  width: 220px;
+  height: 10px;
+  margin-left: -3px;
+  background-color: #CCCCCC;
+  margin-top: -18px;
+  margin-bottom: 20px;
+}
+
 /* Bottom Section */
 .bottom-section {
-  background-color: #1B636D;
+  background-color: #289AAD;
   color: white;
   padding: 20px;
+}
+
+.bottom-text {
+  border-top: 1px solid white;
+  margin: 5px;
+}
+
+.bottom-text h1 {
+  text-align: center;
+  font-size: 54px;
 }
 
 /* Footer Section */

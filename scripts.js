@@ -85,4 +85,3 @@ var x = setInterval(function() {
 
 }, 1000);
 
-$(".example").TimeCircles();
