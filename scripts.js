@@ -60,7 +60,7 @@ window.onload = function() {
 // Timer ------------------------------
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jul 1, 2018 12:00:00").getTime();
+var countDownDate = new Date("Jul 1, 2018 13:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -77,6 +77,16 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  var dayHeight = (days / 100) * 100;
+  var hourHeight = (hours / 24) * 100;
+  var minuteHeight = (minutes / 60) * 100;
+  var secondHeight = (seconds / 60) * 100;
+
+  document.getElementById("day-background").style.height = dayHeight + "px";
+  document.getElementById("hour-background").style.height = hourHeight + "px";
+  document.getElementById("minute-background").style.height = minuteHeight + "px";
+  document.getElementById("second-background").style.height = secondHeight + "px";
+
   // Display the result in the element with id="demo"
   document.getElementById("days").innerHTML = days + "<br>Days";
   document.getElementById("hours").innerHTML = hours + "<br>Hours";
@@ -84,3 +94,4 @@ var x = setInterval(function() {
   document.getElementById("seconds").innerHTML = seconds + "<br>Seconds";
 
 }, 1000);
+
