@@ -17,7 +17,7 @@
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Press+Start+2P|Raleway+Dots|Orbitron" rel="stylesheet">
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="96x96" href="#">
 </head>
@@ -47,8 +47,11 @@
     </div>
   </div>
 
+  <img src="images/temporary-background.png" style="width: 80vw !important; height: 100%; margin-bottom: 100px; margin-left: 10vw;">
+
   <!-- Top Section -->
-  <div class="container top-section">
+<!--   <div class="container top-section">
+
     <div class="row">
       <div class="col-xs-12 col-sm-6">
         <img src="images/1457f7405478772.jpg" alt="Coingage Animation">
@@ -65,25 +68,25 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="timer container-fluid">
+  </div> -->
+  <div class="timer container">
     <div class="timer-box col-xs-3">
-      <div class="timer-background">
+      <div class="timer-background" id="day-background">
       </div>
       <p id="days"></p>
     </div>
     <div class="timer-box col-xs-3">
-      <div class="timer-background">
+      <div class="timer-background" id="hour-background">
       </div>
       <p id="hours"></p>
     </div>
     <div class="timer-box col-xs-3">
-      <div class="timer-background">
+      <div class="timer-background" id="minute-background">
       </div>
       <p id="minutes"></p>
     </div>
     <div class="timer-box col-xs-3">
-      <div class="timer-background">
+      <div class="timer-background" id="second-background">
       </div>
       <p id="seconds"></p>
     </div>
