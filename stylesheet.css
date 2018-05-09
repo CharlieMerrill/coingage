@@ -11,15 +11,20 @@ body {
 
 /* Main navbar */
 .navbar {
+  width: 100vw;
   transition: all 0.3s ease;
   height: 70px !important;
   margin-bottom: 0px !important;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   position: absolute !important;
   border-radius: 0px !important;
   z-index: 1;
+}
+
+.dropdown {
+  margin-top: 5px;
 }
 
 /* Logo */
