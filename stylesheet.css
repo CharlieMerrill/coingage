@@ -16,7 +16,7 @@ body {
   height: 70px !important;
   margin-bottom: 0px !important;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   position: absolute !important;
   border-radius: 0px !important;
@@ -298,8 +298,14 @@ body {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 991px) {
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
 @media only screen and (max-width: 890px) {
-  .dynamic-headline{
+  .dynamic-headline {
     display: none;
   } .dynamic-headline-mobile {
     display: unset !important;
