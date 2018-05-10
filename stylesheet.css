@@ -270,6 +270,43 @@ body {
   font-size: 54px;
 }
 
+/* Mission Statement Section */
+.mission-statement {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.mission-statement p {
+  font-size: 18px;
+  font-weight: 500;
+  border-left: 8px solid #2fbedc;
+  border-bottom: 8px solid #2fbedc;
+/*   border-right: 8px solid #2fbedc;
+  border-top: 8px solid #2fbedc; */
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.mission-border {
+  width: 114px;
+  height: 10px;
+  margin-left: -3px;
+  background-color: #34c688;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.statement-border {
+  width: 153px;
+  height: 10px;
+  margin-left: 20px;
+  background-color: #f3b32a;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+
 /* Footer Section */
 .footer {
   display: flex;
@@ -279,7 +316,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: -70px;
-  background-color: black;
+  background-color: #666666;
 }
 
 .footer a {
