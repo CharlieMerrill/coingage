@@ -258,13 +258,13 @@ body {
 
 /* About Section */
 .about {
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 20px;
 }
 
 .about img {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .about-text {
@@ -273,18 +273,18 @@ body {
 
 .about p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 24px;
   text-align: right;
   border-right: 3px solid #f3b32a;
   padding-right: 5px;
 }
 
 .about-border {
-  width: 220px;
+  width: 248px;
   height: 10px;
   margin-left: -3px;
   background-color: #34c688;
-  margin-top: -18px;
+  margin-top: -21px;
   margin-bottom: 20px;
 }
 
@@ -307,20 +307,32 @@ body {
 
 /* Mission Statement Section */
 .mission-statement {
-  margin-top: 8px;
-  margin-bottom: 16px;
+  margin: 20px 0px;
 }
 
 .mission-statement p {
   font-size: 18px;
-  font-weight: 500;
-  border-left: 8px solid #2fbedc;
+  font-weight: 400;
+  border-right: 8px solid #2fbedc;
   border-bottom: 8px solid #2fbedc;
 /*   border-right: 8px solid #0d68a0;
   border-top: 8px solid #0d68a0; */
   padding: 10px;
   margin-left: 10px;
   margin-top: -5px;
+  text-align: right;
+}
+
+.mission-statement h1 {
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+/*   color: #0d68a0; */
+}
+
+.mission-statement span {
+  font-family: 'Times New Roman';
+  font-size: 100px;
 }
 
 .mission-border {
