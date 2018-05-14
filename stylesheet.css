@@ -145,7 +145,7 @@ body {
 
 .dynamic-text {
   margin-top: -8%;
-  color: #2fbedc;
+  color: black;
   font-weight: bold;
 }
 
@@ -303,6 +303,7 @@ body {
 .bottom-text h1 {
   text-align: center;
   font-size: 54px;
+  margin-top: -40px;
 }
 
 /* Mission Statement Section */
