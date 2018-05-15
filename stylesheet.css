@@ -39,9 +39,10 @@ body {
   margin-bottom: 37px;
 }
 
-.logo {
-  height: 50px;
-  width: 320px;
+.navbar-brand img {
+  width: 120px;
+  margin-left: 12px;
+  margin-top: 8px;
 }
 
 /* Right section */
@@ -121,6 +122,12 @@ body {
 .top-section img {
   width: 100vw !important;
   height: 100%;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 /* Typing Headline */
@@ -211,6 +218,10 @@ body {
   color: white;
   background-color: #0d68a0;
   background-image: linear-gradient(#0d68a0 25%, rgba(95, 198, 253, 0));
+  background-image: -webkit-linear-gradient(#0d68a0 25%, rgba(95, 198, 253, 0));
+  background-image: -moz-linear-gradient(#0d68a0 25%, rgba(95, 198, 253, 0));
+  background-image: -ms-linear-gradient(#0d68a0 25%, rgba(95, 198, 253, 0));
+  background-image: -o-linear-gradient(#0d68a0 25%, rgba(95, 198, 253, 0));
 }
 
 #soon-sep .soon-separator {
@@ -296,14 +307,30 @@ body {
 }
 
 .bottom-text {
-  border-top: 1px solid white;
+  border-top: 5px solid white;
   margin: 5px;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 18px;
 }
 
 .bottom-text h1 {
   text-align: center;
   font-size: 54px;
   margin-top: -40px;
+}
+
+.bottom-text h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bottom-section h3 {
+  border-bottom: 5px solid #34c688;
+  border-left: 5px solid #34c688;
+  padding: 12px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 /* Mission Statement Section */
@@ -385,7 +412,7 @@ body {
 /* Media Queries */
 @media only screen and (max-width: 991px) {
   .navbar {
-    justify-content: space-between;
+/*     justify-content: space-between; */
   }
 }
 
@@ -402,17 +429,26 @@ body {
     width: 90vw;
   } .timer p {
     font-size: 16px;
+  } .bottom-section h3 {
+    border: none;
   }
 }
 
 @media only screen and (max-width: 546px) {
   .timer-section {
     margin-top: -41px !important;
+  } .top-section img {
+    width: 150vw !important;
+    margin-left: -40vw;
+    margin-top: 10vw;
+  } .top-section {
+    width: 100vw !important;
+    overflow-x: hidden;
   }
 }
 
 @media only screen and (max-width: 470px) {
   .timer-section {
-    margin-top: -34px !important;
+/*     margin-top: -34px !important; */
   }
 }
